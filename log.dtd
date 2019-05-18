@@ -1,0 +1,29 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT root (style,date)>
+<!ATTLIST root
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT style (rel,href)>
+<!ATTLIST style
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT date (user,pass)>
+<!ATTLIST date
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT rel (#PCDATA)>
+<!ATTLIST rel
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT href (#PCDATA)>
+<!ATTLIST href
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT user (#PCDATA)>
+<!ATTLIST user
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT pass (#PCDATA)>
+<!ATTLIST pass
+  xmlns CDATA #FIXED ''>
